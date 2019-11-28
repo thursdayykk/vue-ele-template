@@ -6,6 +6,9 @@
 export default {
   data () {
     return {}
+  },
+  created () {
+    console.log(this.$store.state.user.name)
   }
 }
 </script>

@@ -8,7 +8,9 @@
                 <my-menu />
             </el-aside>
             <el-main class="main">
-                <router-view></router-view>
+                <transition name="fade">
+                    <router-view></router-view>
+                </transition>
             </el-main>
         </el-container>
     </el-container>
